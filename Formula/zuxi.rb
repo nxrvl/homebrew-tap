@@ -1,16 +1,16 @@
 class Zuxi < Formula
   desc "Cross-platform offline developer toolkit"
   homepage "https://github.com/nxrvl/zuxi"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nxrvl/zuxi/releases/download/v0.1.0/zuxi-0.1.0-macos-arm64.tar.gz"
-      sha256 "645aa95a613dda8dcadd8127d56043bd9f32f6d0a71405dfa990f37fb119eea2"
+      url "https://github.com/nxrvl/zuxi/releases/download/v0.2.0/zuxi-0.2.0-macos-arm64.tar.gz"
+      sha256 "686a41d920aef5d888f9af611c4c77f975a6d685a9f494c50b7acf7650512222"
     else
-      url "https://github.com/nxrvl/zuxi/releases/download/v0.1.0/zuxi-0.1.0-macos-amd64.tar.gz"
-      sha256 "c4da3d1289697bdbcac4c9701775f1f3070ed37f2dc23196736813f5820f062a"
+      url "https://github.com/nxrvl/zuxi/releases/download/v0.2.0/zuxi-0.2.0-macos-amd64.tar.gz"
+      sha256 "a16f06567d7d434a60f617bf8cd65fe21ad428f37c10eca3af0ffc2964c53986"
     end
   end
 
