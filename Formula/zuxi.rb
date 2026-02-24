@@ -7,10 +7,10 @@ class Zuxi < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/nxrvl/zuxi/releases/download/v0.2.1/zuxi-0.2.1-macos-arm64.tar.gz"
-      sha256 "d5abe3da45fef653e6af862216cd8e342c7b915e99002da421c0b5840d28d541"
+      sha256 "f5310ef0a1ce005942cc4bcba72d3c638dfee70b6246b7559303bda784ac1452"
     else
       url "https://github.com/nxrvl/zuxi/releases/download/v0.2.1/zuxi-0.2.1-macos-amd64.tar.gz"
-      sha256 "c893629af85fbcea80699742a058d2c84e5401680e797e6076ca5097e3fa1eb1"
+      sha256 "5c948b80023138c661d991300cb478e0828ebfce977b6cc806be9989b2273a2c"
     end
   end
 
